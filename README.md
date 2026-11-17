@@ -53,6 +53,8 @@ upbit = df[(df.exchange == "upbit") & (df.kind == "spot") & (df.counted_from == 
 print(upbit.change_5m_pct.median(), upbit.change_7d_pct.median())
 ```
 
+The table above recomputed from `listings.csv` with nothing but Python's standard library: `python examples/listing_effect.py` ([source](examples/listing_effect.py)). Its output matches `listing-effect.csv`.
+
 ## Columns of listings.csv
 
 | Column | Meaning |
