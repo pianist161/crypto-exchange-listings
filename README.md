@@ -78,7 +78,7 @@ print(upbit.change_5m_pct.median(), upbit.change_7d_pct.median())
 - Left out: tokens of stocks and funds, leveraged tokens, indexes, perpetual contracts on shares and commodities.
 - Method in full: [newcoinlistings.com/about](https://newcoinlistings.com/about).
 
-Live, without this repository: the latest 500 events as JSON at `https://newcoinlistings.com/raw/events.json`, RSS at `https://newcoinlistings.com/feed.xml`.
+Live, without this repository: the latest 500 events as JSON at `https://newcoinlistings.com/raw/events.json`, RSS at `https://newcoinlistings.com/feed.xml`. The same files on Kaggle: [kaggle.com/datasets/newlisting/crypto-exchange-listings-and-price-after-listing](https://www.kaggle.com/datasets/newlisting/crypto-exchange-listings-and-price-after-listing).
 
 ## Licence
 
